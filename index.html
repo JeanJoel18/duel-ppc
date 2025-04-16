@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pierre - Papier - Ciseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🪨 Pierre - 📄 Papier - ✂️ Ciseaux</h1>
+    <div class="boutons"> 
+        <button onclick="jouer('pierre')">🪨 Pierre</button>
+        <button onclick="jouer('papier')">📄 Papier </button>
+        <button onclick="jouer('ciseaux')">✂️ Ciseaux</button>
+    </div>
+    <div id="resultats">Fais ton choix !</div>
+    <div class="scores">
+        Score Joueur : <span id="ScoreJouer">0</span> |
+        Score Ordinateur : <span id="ScoreOrdi">0</span>
+    </div>
+    <button class="reset" onclick="resetscores">🔄 Reinitialiser les scores</button>
+    <script src="script.js"></script>
+</body>
+</html>
